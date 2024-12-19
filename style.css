@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  /* background-image: url( dwayne-joe-H1360QE0M1o-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-position: 0 40%; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4e86ff;
+  padding: 1vw 2vw;
+  color: rgb(255, 255, 255);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 25px;
+  font-size:40px;
+  font-weight: 300;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  font-size: 42px;
+  font-weight: 400;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.logo i {
+  text-shadow: 5px 5px 10px #000000;
+font-size: 50px;
+
+color: #ffffff;
+}
+.logo h1{
+  font-size: 50px;
+  text-shadow: 5px 5px 10px #000000;
+  font-weight: 400;
+}
+.navbar .menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu-item {
+  position: relative;
+}
+
+.navbar .dropdown {
+  display: none;
+  position: absolute;
+  top: 80%;
+  left: 0;
+
+  width: 10vw;
+  background-color:#DBDBDD;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.877);
+  z-index: 10;
+}
+
+.navbar .dropdown a {
+  display: block;
+  padding: 0.8vw;
+  color: #000657;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.dropdown a:hover {
+  text-decoration: underline 2px solid #2f71ff;
+}
+
+.navbar .menu-item:hover .dropdown {
+  display: block;
+
+}
+
+.n-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-bar input {
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 27px;
+  outline: 5px solid white;
+  border: none;
+  margin-right: 5px;
+}
+
+.search-btn {
+
+  border: 2px solid white;
+  padding: 15px 20px;
+  color: #2f71ff;
+  font-size: 27px;
+
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.icon {
+  display: flex;
+  gap: 1vw;
+  width: 10vw;
+
+}
+
+.icon i {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.page {
+  padding: 1vw 2vw;
+  height: 91vh;
+  width: 100%;
+  background-image: url(dwayne-joe-H1360QE0M1o-unsplash.jpg);
+  background-size: cover;
+  background-position: 0 25%;
+}
+
+.top {
+  height: 55%;
+
+  width: 100%;
+
+}
+
+.homepage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  gap: 2rem;
+}
+
+.homepage h1 {
+  font-size: 95px;
+  text-shadow: 3px 3px 5px #2f71ff;
+  font-weight: 700;
+
+
+}
+
+.homepage p {
+  font-size: 30px;
+  text-align: center;
+  width: 40%;
+  font-weight: 300;
+  line-height: 1.3;
+  letter-spacing: 2px;
+
+}
+
+.homepage .shop {
+  box-shadow: 2px 5px 5px #A3B6E0;
+  border-radius: 15px;
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+  padding: 10px 30px;
+  background-color: transparent;
+  font-weight: 400;
+  transition: 0.2s ease all;
+  cursor: pointer;
+
+}
+
+.shop:hover {
+  padding: 10px 40px;
+  background-color: #2f71ff;
+  color: white;
+  box-shadow: 5px 10px 10px #A3B6E0;
+}
+
+.bottom {
+  height: 45%;
+
+  padding: 20px;
+  display: flex;
+
+  gap: 20px;
+  scrollbar-width: none;
+}
+
+.cloth {
+  height: 100%;
+  width: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.cloth img {}
+
+.text {
+  display: flex;
+}
